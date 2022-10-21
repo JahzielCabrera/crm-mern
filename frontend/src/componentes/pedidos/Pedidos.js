@@ -25,6 +25,7 @@ function Pedidos() {
                     <DetallesPedido 
                         key={pedido._id}
                         pedido={pedido}
+                        pedidoId={pedido._id}
                     />
                 ))}
             </ul>

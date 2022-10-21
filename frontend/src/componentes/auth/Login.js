@@ -69,6 +69,12 @@ function Login(props){
         <div className="login">
             <h2>Iniciar Sesión</h2>
 
+            <div className='banner-login-info center'>
+                <p>For testing you can use the following credentials</p>
+                <p>Email: <strong>test@emailprovider.com</strong></p>
+                <p>Password: <strong>12345678</strong></p>
+            </div>
+
             <div className="contenedor-formulario">
                 <form
                     onSubmit={iniciarSesion}

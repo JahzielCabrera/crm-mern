@@ -3,11 +3,11 @@
     --fontHeading: 'Raleway', sans-serif;
 
     /** Colores **/
-    --azul : #00487C;
-    --rojo : #A01C48;
+    --azul : #00357f;
+    --rojo : #9e2828;
     --naranja : #F58549;
     --amarillo: #ECA400;
-    --verde : rgb(20, 131, 20);
+    --verde : rgb(34, 137, 34);
 
     /** gris **/
     --gris: #969696;
@@ -440,8 +440,8 @@ h3.resumen-titulo {
 
 .login {
     max-width: 520px;
-    margin: 15rem  auto 0 auto;
-    padding: 4rem 2rem;
+    margin: 10rem  auto 0 auto;
+    padding: 2rem 2rem;
     background-color: var(--grisClaro);
     border-radius: 1.5rem;
 }
@@ -450,4 +450,14 @@ h3.resumen-titulo {
 }
 .login .contenedor-formulario {
 
+}
+
+.center {
+    text-align: center;
+}
+
+.banner-login-info {
+    background-color: var(--azul);
+    padding: 1px;
+    color: white;
 }

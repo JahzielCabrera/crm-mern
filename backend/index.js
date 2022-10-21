@@ -2,6 +2,7 @@ const express = require('express');
 const routes = require('./routes');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+require('dotenv').config()
 
 // Cors permite que un cliente se conecta a otro servidor para el intercambio de recursos
 
@@ -10,7 +11,7 @@ const cors = require('cors');
 // conectar mongo
 //mongoose.Promise = global.Promise;
 
-mongoose.connect('mongodb://localhost:27017/crm', {
+mongoose.connect(`${process.env.DB_URL}`, {
     useNewUrlParser: true
 })
     .then(db => console.log('Database is connected'))

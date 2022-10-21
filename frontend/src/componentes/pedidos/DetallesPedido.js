@@ -1,13 +1,13 @@
 import React from 'react';
 
-function DetallesPedido({pedido}) {
+function DetallesPedido({pedido, pedidoID}) {
 
     const {cliente} = pedido;
 
     return(
         <li className="pedido">
             <div className="info-pedido">
-                <p className="id">ID: 0192019201291201</p>
+                <p className="id">ID: 638726387</p>
                 <p className="nombre">Cliente: {cliente.nombre} {cliente.apellido} </p>
 
                 <div className="articulos-pedido">

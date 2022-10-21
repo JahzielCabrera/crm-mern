@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const clienteAxios = axios.create({
-    baseURL : 'http://localhost:5050'
+    baseURL : 'https://crm-api.jahzielcabrera.xyz'
 });
 
 export default clienteAxios;
